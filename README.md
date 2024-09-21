@@ -19,7 +19,7 @@ docker-compose
    └── 📂 EndToEndTests/                # Pendente  
 
 # Arquitetura Estrutural Detalhada
-📂 src/
+📂 src/  
    ├── 📂 API/  
    │   ├── 📂 Endpoints/                  # Controladores e endpoints da API  
    │   ├── 📂 Contracts/                  # Request e Response do contrato de comunicação http  
