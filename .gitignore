@@ -1,0 +1,70 @@
+﻿# Compiled object files
+*.o
+*.obj
+*.exe
+*.pdb
+*.dll
+*.manifest
+*.config
+*.v2
+*.v1
+*.vsidx
+*.lock
+*.testlog
+*.bak
+
+# User-specific files
+*.rsuser
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Visual Studio Code directories
+.vscode/
+.vscode/*
+
+# .NET build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Rider project files
+.idea/
+.idea/*
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+*.nuget
+*.lock.json
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+.coverage*
+
+# .NET user-specific files
+*.csproj.user
+*.psess
+
+# Temp files
+*~
+
+# Generated files
+*.gen.cs
+*.g.cs
+*.AssemblyInfo.cs
