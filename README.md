@@ -20,7 +20,7 @@ docker-compose
 
 # Arquitetura Estrutural Detalhada
 📂 src/
-   ├── 📂 API/
+   ├── 📂 API/  
    │   ├── 📂 Endpoints/                  # Controladores e endpoints da API  
    │   ├── 📂 Contracts/                  # Request e Response do contrato de comunicação http  
    │   ├── 📂 Middlewares/                # Middlewares personalizados  
