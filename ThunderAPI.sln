@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra", "Infra\Infra.csproj", "{AFF11E29-A95F-447F-9751-330171A0A7DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integration", "Integration\Integration.csproj", "{73B468B0-0B16-4539-9887-1FE79230A07E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Integration", "Integration\Integration.csproj", "{73B468B0-0B16-4539-9887-1FE79230A07E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EndToend", "EndToend", "{4C747E6F-9AA9-486B-A4CF-B1DF423A0B0C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5AE1127C-6C8C-47C3-82F1-4F7583277F68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "End2End", "End2End", "{B49271EB-430C-4C28-9483-C344E900EA54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +52,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82349FA7-33DE-4FA5-BED2-E322114888B7} = {5AE1127C-6C8C-47C3-82F1-4F7583277F68}
+		{73B468B0-0B16-4539-9887-1FE79230A07E} = {5AE1127C-6C8C-47C3-82F1-4F7583277F68}
+		{B49271EB-430C-4C28-9483-C344E900EA54} = {5AE1127C-6C8C-47C3-82F1-4F7583277F68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2FE1676E-3993-400A-9E0F-080DED76C776}
