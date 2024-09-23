@@ -36,6 +36,7 @@ docker-compose
    │   ├── 📂 Services/                   # Serviços de aplicação  
    │   └── 📂 DTOs/                       # Data Transfer Objects  
    │
+   │
    ├── 📂 Infra/                          # Implementações de infraestrutura  
    │   ├── 📂 Repositories/               # Implementação dos repositórios  
    │   ├── 📂 Mappings/                   # Mapeamento entre entidades e persistência  
